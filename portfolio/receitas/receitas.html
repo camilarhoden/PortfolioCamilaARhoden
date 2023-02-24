@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <title>Lista de Receitas</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+
+        <div class="container-fluid">
+          <img style="width: 3%" src="img/stars.svg" alt="">
+          <a class="navbar-brand" href="#topo">Lista de Receitas</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+              <li class="nav-item"> 
+                <a class="nav-link" href="#tabelaFilmes">Receitas</a> 
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#cadastrarFilme">Cadastrar Receita</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Receitas por Categoria </a>
+                <ul class="dropdown-menu">
+                    <li> <a class="dropdown-item" href="gAcao">Massas</a> </li>
+                    <li> <a class="dropdown-item" href="gAnimacao">Saladas</a> </li>
+                    <li> <a class="dropdown-item" href="gRomance">Carnes</a> </li>
+                    <li> <a class="dropdown-item" href="gSuspense">Lanches</a> </li>
+                    <li> <a class="dropdown-item" href="gComedia">Sobremesas</a> </li>
+                    <li> <a class="dropdown-item" href="gDrama">Pratos Únicos</a> </li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+     <!-- <img src="img/image.png" class="img-fluid align-items-start" alt="Responsive image"> -->
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+   <div class=""">
+        <h2 class="display-1 text-center mb-5">Lista de Receitas</h2>
+        <br>
+        <h3 class="display-6 text-center mb-5">Está sem ideias do que preparar na sua próxima refeição? <br> 
+            Veja nossa lista de receitas, escolha sua favorita e <i>bon appetit!</i> </h3>
+   </div>
+
+     <br>    
+
+    <div class="container">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"> Número </th>
+                    <th scope="col"> Nome da Receita </th>
+                    <th scope="col"> Cozinha </th>
+                    <th scope="col"> Dificuldade do Preparo </th>
+                    <th scope="col"> Link da Receita </th>
+                    <th scope="col"> Tempo de Preparo </th>
+                    <th scope="col"> Nível de Deliciosidade </th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th class="text-center table-dark" colspan="7" id="massas"> Massas </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 1 </th>
+                    <td>Fettucinne Alfredo com Camarão</td>
+                    <td>Italiana</td>
+                    <td>Média</td>
+                    <td> <a href="https://www.saltandlavender.com/easy-shrimp-alfredo/"> Veja a receita aqui </a></td>
+                    <td>30 minutos</td>
+                    <td class="" align="center" style="text-nowrap" > 
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-dark" colspan="7" id="saladas"> Saladas </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 2 </th>
+                    <td> Salada de Quinoa, Aspargo e Ovo </td>
+                    <td> Vegetariana </td>
+                    <td>Baixa</td>
+                    <td> <a href="https://www.bbcgoodfood.com/recipes/quinoa-with-roast-asparagus-eggs-capers"> Veja a receita aqui </a></td>
+                    <td>20 minutos</td>
+                    <td class="" align="center" style="text-nowrap" > 
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-dark" colspan="7" id="carnes"> Carnes </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 3 </th>
+                    <td> Frango Toscano ao Molho Cremoso de Espinafre</td>
+                    <td> Italiana </td>
+                    <td>Média</td>
+                    <td> <a href="https://www.saltandlavender.com/creamy-tuscan-chicken/"> Veja a receita aqui </a></td>
+                    <td>25 minutos</td>
+                    <td class="" align="center" style="text-nowrap" > 
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-dark" colspan="7" id="lanches"> Lanches </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 4 </th>
+                    <td> Sanduíche de Atum </td>
+                    <td> Americana </td>
+                    <td>Baixa</td>
+                    <td> <a href="https://www.saltandlavender.com/tuna-salad/"> Veja a receita aqui </a></td>
+                    <td>10 minutos</td>
+                    <td class="" align="center" style="text-nowrap" > 
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-dark" colspan="7" id="sobremesas"> Sobremesas </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 5 </th>
+                    <td> Sorvete de Matcha </td>
+                    <td> Japonesa </td>
+                    <td>Alta</td>
+                    <td> <a href="https://www.bbcgoodfood.com/recipes/mochi-ice-cream"> Veja a receita aqui </a></td>
+                    <td>45 minutos</td>
+                    <td class="" align="center" style="text-nowrap" > 
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                        <i class="bi bi-suit-heart-fill"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-dark" colspan="7" id="pratosUnicos"> Pratos Únicos </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 6 </th>
+                    <td> Risoto de Limão e Camarão </td>
+                    <td> Italiana </td>
+                    <td>Média</td>
+                    <td> <a href="https://www.saltandlavender.com/lemon-risotto-with-shrimp/"> Veja a receita aqui </a></td>
+                    <td>50 minutos</td>
+                    <td class="" align="center" style="text-nowrap" > 
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                        <i class="bi bi-suit-heart"></i>
+                    </td>
+                </tr>
+
+                <tr id="inserirTabela">
+                </tr>
+
+            </tbody>
+        </table>
+
+     </div>
+
+                <div class="m-5">
+                    <hr class="border-primary border-3 opacity-75">
+                </div>
+        
+
+                <div class="container mb-5">
+                    <h2 class="text-center">Cadastrar Nova Receita</h2>
+                    
+                    <form name="cadastrarNovaReceita" onsubmit="event.preventDefault()">
+        
+                        <div class="row">
+                            <div class="mb-3 col">
+                                <label for="numeroReceita" class="form-label">Número</label>
+                                <input type="text" class="form-control" id="numeroReceita" placeholder="00" name="numero" required>
+                            </div>
+        
+                            <div class="mb-3 col">
+                                <label for="nomeReceita" class="form-label">Nome da Receita</label>
+                                <input type="text" class="form-control" id="nomeReceita" placeholder="Escreva aqui" name="nome" required>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="mb-3 col">
+                                <label for="cozinha" class="form-label">Cozinha</label>
+                                <input type="text" class="form-control" id="cozinha" placeholder="Escreva aqui" name="cozinha" required>
+                            </div>
+        
+                            <div class="mb-3 col">
+                                <label for="dificuldadePreparo" class="form-label">Dificuldade</label>
+                                <input type="text" class="form-control" id="dificuldadePreparo" placeholder="Baixa / Média / Alta" name="dificuldade" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            
+                            <div class="mb-3 col">
+                                <label for="linkReceita" class="form-label">Link da Receita</label>
+                                <input type="text" class="form-control" id="linkReceita" placeholder="Cole o link aqui" name="link" required>
+                            </div>
+
+                            <div class="mb-3 col">
+                                <label for="tempoDePreparo" class="form-label">Tempo de Preparo</label>
+                                <input type="number" class="form-control" id="tempoDePreparo" placeholder="00" name="tempo" required>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="mb-3 col">
+                            <label for="nivelDeliciosidade" class="form-label">Nível de Deliciosidade</label>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioDeliciosidade0" value="deliciosidade0" required>
+                            <label class="form-check-label" for="deliciosidade0">
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioDeliciosidade1" value="deliciosidade1" required>
+                            <label class="form-check-label" for="deliciosidade1">
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioDeliciosidade2" value="deliciosidade2" required>
+                            <label class="form-check-label" for="deliciosidade2">
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioDeliciosidade3" value="deliciosidade3" required>
+                            <label class="form-check-label" for="deliciosidade3">
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart"></i>
+                                <i class="bi bi-suit-heart"></i>
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioDeliciosidade4" value="deliciosidade4" required>
+                            <label class="form-check-label" for="deliciosidade4">
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart"></i>
+                            </label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radioDeliciosidade5" value="deliciosidade5" required>
+                            <label class="form-check-label" for="deliciosidade5">
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                                <i class="bi bi-suit-heart-fill"></i>
+                            </label>
+                        </div>
+                        
+                        <br>
+                        <br>
+
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-dark mb-3" onclick="insere()">Cadastrar</button>
+                        </div>
+
+                    </form>
+                </div>
+
+    </div>
+
+</body>
+</html>
